@@ -6,5 +6,7 @@ This is a basic RTMP streaming server that ingests RTMP streams and outputs vide
 
 # Usage
 Ingest Server URL(s)    @ *rtmp://localhost/live/test*  OR *localhost:1935/live/test*
+
 Output Server URL(s)	  @ *http://localhost/player*     OR *http://localhost/player2*
+
 Recording Save location @ */home/gmstv/announcements/*
