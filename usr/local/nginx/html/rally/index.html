@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yendif! Video Player</title>
+<!--******************************************************************************************-->
+<!--Yendifplayer header configuration[start]-->
+<!--******************************************************************************************-->
+<link href="yendifplayer.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="yendifplayer.js"></script>
+<style type="text/css">
+html, body {
+	width:100%;
+	background-color:#222;
+	margin:0 auto;
+	color:#999;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+h2 {
+	color:#EEE;
+}
+h2, h3 {
+	margin:25px auto;
+	font-weight:normal;
+	text-align:center;
+}
+h3 a {
+	color:#DDD;
+}
+.main {
+	display:block;
+	width:60%;
+	margin:0 auto;
+	padding:0;
+}
+.yendifplayer {
+	-webkit-box-shadow:0 45px 20px -40px #000;
+	-moz-box-shadow:0 45px 20px -40px #000;
+	box-shadow:0 45px 20px -40px #000;
+}
+.footer {
+	width:100%;
+	margin:0 auto;
+	padding:10px 0px;
+}
+.footer ul, .footer p {
+	margin:7px 0;
+	padding:0;
+	text-align:center;
+}
+.footer ul li {
+	display:inline-block;
+	list-style:none;
+	font-size:12px;
+	margin:0px 3px;
+}
+.footer ul li a {
+	color:#CCC;
+}
+.footer p {
+	font-size:11px;
+}
+a{
+	color:#00B8F5;
+}
+a:visited{
+	color:#00B8F5;
+}
+img{
+	width:50px;
+}
+</style>
+</head>
+<body>
+<h1>How to use: Connect to airplay like normal, then press <img src="http://i.imgur.com/6sgVja3.png" />, then the <img src="http://i.imgur.com/QmYFSNN.png"> button in the bottom right corner. Don't worry if it's black for a few seconds, but if it doesn't show the announcements soon, you can go back to the old version <a href="https://grahambears.weebly.com/gmstv-announcements.html">here</a>. Thanks for testing!</h1>
+<div class="main">
+  <div class="yendifplayer">
+    <video poster="http://10.22.10.10/player/images/splash.jpg">
+      <source type="video/flash" src="test.flv" data-rtmp="rtmp://10.22.10.10/rally">
+      <source type="application/x-mpegurl" src="http://10.22.10.10/rally/hls/test.m3u8"/>
+    </video>
+  </div>
+</div>
+</body>
+</html>
