@@ -7,12 +7,13 @@ This is a basic RTMP streaming server that ingests RTMP streams and outputs vide
 A good guide for how to make a (basic) server like this can be found at the [OBS Forums](https://obsproject.com/forum/resources/how-to-set-up-your-own-private-rtmp-server-using-nginx.50/)
 
 ## Usage
-RTMP Ingest URLs              @ *rtmp://localhost/live/test*  OR *localhost:1935/live/test*
-
-HTTP Video Player Server URLs @ *http://localhost/player*     OR *http://localhost/player2*
-
-Recording Save location       @ */home/gmstv/announcements/*
+* RTMP Ingest URLs              @ *rtmp://localhost/live/test*  OR *localhost:1935/live/test*
+* HTTP Video Player Server URLs @ *http://localhost/player*     OR *http://localhost/player2*
+* Recording Save location       @ */home/gmstv/announcements/*
 
 ## Repo organisation
-* NGINX Builds- Recent builds of NGINX for the server code
-* usr/local/nginx       - NGINX webserver code
+* NGINX Builds    - Recent builds of NGINX for the server code
+* `usr/local/nginx` - NGINX webserver code
+* `usr/local/nginx/html/bin-debug`  - Test RTMP Player exclusively for debug use
+* `usr/local/nginx/html/player` - (Recomended) Stylised Player for end user
+* `usr/local/nginx/html/player2` - Unstylised Player for end user
