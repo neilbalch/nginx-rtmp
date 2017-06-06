@@ -1,5 +1,5 @@
 # nginx-rtmp-server
-NGINX based RTMP server using nginx-rtmp-module 
+NGINX based RTMP server using nginx-rtmp-module. _For full HD streaming, it is recomended to run the server off of a min 1Gbps capable NIC._
 
 ## Synopsys
 This is a basic RTMP streaming server that ingests RTMP streams and outputs video to a web server for Internet browser use within the local NAT layer. It utilizes NGINX with the [nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module) to host the RTMP server itself and to host the web server for the flash based player. Streams are dumped to a file @ “/home/gmstv/announcements”. HLS is implimented to enable playback on Apple mobile devices.
