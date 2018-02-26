@@ -1,4 +1,4 @@
-# nginx-rtmp-server
+# nginx-rtmp
 NGINX based RTMP server using nginx-rtmp-module. _For full HD streaming, it is recomended to run the server off of a min 1Gbps capable NIC._ Debian is the only supported linux distro.
 
 ## Synopsys
